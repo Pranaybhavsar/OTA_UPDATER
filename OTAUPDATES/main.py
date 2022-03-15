@@ -68,4 +68,4 @@ while True:
   conn.send('Content-Type: text/html\n')
   conn.send('Connection: close\n\n')
   conn.sendall(response)
-  conn.close(
+  conn.close()
